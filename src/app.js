@@ -15,6 +15,6 @@ const corsOptions = {
 app.use(cors(corsOptions))
 
 //definir entrada a enpoints de usuarios
-app.use("/usuarios", usuariosRouter.router)
+app.use("/usuario2", usuariosRouter.router)
 
 export default app
